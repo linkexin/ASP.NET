@@ -1,0 +1,12 @@
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.csprojResolveAssemblyReference.cache
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\bin\都市供求信息网.dll.config
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\bin\都市供求信息网.dll
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\bin\都市供求信息网.pdb
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.dll
+C:\Users\林扣星\Desktop\C-Sharp\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.pdb
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\bin\都市供求信息网.dll.config
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\bin\都市供求信息网.dll
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\bin\都市供求信息网.pdb
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.csprojResolveAssemblyReference.cache
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.dll
+C:\Users\林扣星\Desktop\都市供求信息网\都市供求信息网\obj\Debug\都市供求信息网.pdb

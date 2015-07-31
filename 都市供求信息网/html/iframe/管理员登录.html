@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理员登录</title>
+
+<script type="text/javascript">
+function logon()
+{
+	var username = document.getElementById("usrnm");
+	var password = document.getElementById("pswd");
+	
+	if(username.value=="admin" && password.value=="123456")
+	{
+		window.location.href="../../../后台/后台首页.html"; 
+	}	
+	else
+	{
+		alert("用户名或者密码无效！");
+	}
+}
+</script>
+
+<style>
+	body{
+		background:#E7ECEF;
+		}
+	p{
+		font-size:12px;
+		font-family:"宋体";
+		}
+	#main{
+		margin: 150px auto;
+		height:500px;
+		width:545px;
+		}
+	#middle{
+		background-image:url(image/logon_middle.gif);
+		width:545px;
+		height:200px;
+		}
+	.button{
+		font-size:13px;
+		font-family:"宋体";
+		}
+	.a{
+		font-size:12px;
+		font-family:"宋体";
+		}
+</style>
+
+</head>
+
+<body>
+<div id = "main">
+	<div>
+    	<img src="image/logon_top.gif" />
+    </div>
+	<div id = "middle">
+    <form>
+    	<table cellpadding="0.1px">
+        	<tr height="30px">
+            </tr>
+            
+            <tr>
+            	<td width="135px"></td>
+            	<td><p>用户名：&nbsp;</p></td>
+                <td><input id="usrnm" style = "height = :50px;" name = "username" type = "text" size = "20" width="30"></td>
+            </tr>
+            
+            <tr>
+	            <td></td>
+            	<td><p>密&nbsp;码：&nbsp;</p></td>
+                <td><input id="pswd" name = "password" type = "password" size = "20" width="30"></td>
+            </tr>
+            
+            <tr>
+            	<td></td>
+				<td></td>
+                <td><input name = "login" type = "button" value="登录" class = "button" onclick="logon()"/>&nbsp;<input name = "reset" type = "reset" value="重置" class = "button"/>&nbsp;<a href="../../都市供求信息网主页面.html" class = "a">[返回首页]</a></td>
+                
+            </tr>
+        </table>
+    </form>
+    </div>
+	<div>
+    	<img src="image/logon_end.gif" />
+    </div>
+</div>
+</body>
+</html>

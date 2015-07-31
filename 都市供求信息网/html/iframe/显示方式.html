@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>显示方式</title>
+</head>
+
+<body>
+<div style = "border:1px solid #999; height:30px; width:230px; background-color:#F0F0F0">
+	<p style="color:#039; font-weight:bold; margin-top:7px; font-size:12px">■显示方式</p>
+</div>
+
+<div style = "border:black solid 1px; font-size:12px; width:230px; height:50px; margin-top:5px;" >
+	<div style = "margin-top:-6px; background-color:#FFF; font-size:12px; position:absolute;left:22px">★付费状态</div>
+	<input name = "pay" type = "radio" style = "margin-top:15px; margin-left:25px;" checked="checked"/>未付费
+    <input name = "pay" type = "radio"/>已付费
+    <input name = "pay" type = "radio"/>全部
+</div>
+
+<div style = "border:black solid 1px; font-size:12px; width:230px; height:50px; margin-top:5px;">
+	<div style = "margin-top:-6px; background-color:#FFF; font-size:12px; position:absolute;left:22px">★审核状态</div>
+	<input name = "check" type = "radio" style = "margin-top:20px; margin-left:25px;" />未审核
+    <input name = "check" type = "radio"/>已审核
+    <input name = "check" type = "radio" checked="checked"/>全部
+</div>
+
+<div style = "height:32px; width:232px; background-color:#CCC">
+	<p style="color:black; font-size:12px; padding-left:15px; padding-top:7px;margin-top:0px;">信息类别：
+    <select name = "info">
+		<option value="培训信息" selected="selected">培训信息</option>
+    </select>
+    <input name = "button" type = "button" value = "显示"/>
+    </p>
+</div>
+
+</body>
+</html>

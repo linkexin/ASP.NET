@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03DE7615-22B7-4209-B1A7-84C9A85283D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>都市供求信息网</RootNamespace>
+    <AssemblyName>都市供求信息网</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="html\iframe\deleteInfo.aspx" />
+    <Content Include="html\iframe\image\admin_exit.gif" />
+    <Content Include="html\iframe\image\admin_index.gif" />
+    <Content Include="html\iframe\image\admin_top.jpg" />
+    <Content Include="html\iframe\image\default_e.jpg" />
+    <Content Include="html\iframe\image\default_m.jpg" />
+    <Content Include="html\iframe\image\default_t.jpg" />
+    <Content Include="html\iframe\image\end.jpg" />
+    <Content Include="html\iframe\image\leftD.jpg" />
+    <Content Include="html\iframe\image\leftS.jpg" />
+    <Content Include="html\iframe\image\logo.gif" />
+    <Content Include="html\iframe\image\logon_end.gif" />
+    <Content Include="html\iframe\image\logon_middle.gif" />
+    <Content Include="html\iframe\image\logon_top.gif" />
+    <Content Include="html\iframe\image\menu.gif" />
+    <Content Include="html\iframe\image\pcard1.jpg" />
+    <Content Include="html\iframe\image\pcard2.jpg" />
+    <Content Include="html\iframe\modify.aspx" />
+    <Content Include="html\iframe\付费设置.html" />
+    <Content Include="html\iframe\信息快速搜索.aspx" />
+    <Content Include="html\iframe\发布信息.aspx" />
+    <Content Include="html\iframe\发布信息.html" />
+    <Content Include="html\iframe\后台付费状态检索main.html" />
+    <Content Include="html\iframe\后台信息类别检索main.html" />
+    <Content Include="html\iframe\后台右侧.html" />
+    <Content Include="html\iframe\后台审核状态检索main.html" />
+    <Content Include="html\iframe\后台已付费信息id检索main.html" />
+    <Content Include="html\iframe\后台欢迎登录.aspx" />
+    <Content Include="html\iframe\后台首页main.html" />
+    <Content Include="html\iframe\推荐信息.aspx" />
+    <Content Include="html\iframe\日历.html" />
+    <Content Include="html\iframe\显示方式.html" />
+    <Content Include="html\iframe\最新信息.aspx" />
+    <Content Include="html\iframe\管理员.aspx" />
+    <Content Include="html\iframe\管理员登录.aspx" />
+    <Content Include="html\iframe\管理员登录.html" />
+    <Content Include="html\iframe\详细信息.aspx" />
+    <Content Include="html\iframe\顶部.aspx" />
+    <Content Include="html\iframe\顶部.html" />
+    <Content Include="html\iframe\首页main.aspx" />
+    <Content Include="html\iframe\首页main.html" />
+    <Content Include="html\iframe\首页top.html" />
+    <Content Include="html\iframe\首页关键字检索.aspx" />
+    <Content Include="html\iframe\首页关键字检索.html" />
+    <Content Include="html\iframe\首页导航检索.html" />
+    <Content Include="html\iframe\首页导航检索main.aspx" />
+    <Content Include="html\iframe\首页左侧.aspx" />
+    <Content Include="html\iframe\首页左侧.html" />
+    <Content Include="html\后台首页.aspx" />
+    <Content Include="html\都市供求信息网.aspx" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dao\TBInfoService.cs" />
+    <Compile Include="dao\TBTypeService.cs" />
+    <Compile Include="dao\UsersService.cs" />
+    <Compile Include="html\iframe\deleteInfo.aspx.cs">
+      <DependentUpon>deleteInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\deleteInfo.aspx.designer.cs">
+      <DependentUpon>deleteInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\modify.aspx.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\modify.aspx.designer.cs">
+      <DependentUpon>modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\信息快速搜索.aspx.cs">
+      <DependentUpon>信息快速搜索.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\信息快速搜索.aspx.designer.cs">
+      <DependentUpon>信息快速搜索.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\发布信息.aspx.cs">
+      <DependentUpon>发布信息.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\发布信息.aspx.designer.cs">
+      <DependentUpon>发布信息.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\后台欢迎登录.aspx.cs">
+      <DependentUpon>后台欢迎登录.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\后台欢迎登录.aspx.designer.cs">
+      <DependentUpon>后台欢迎登录.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\推荐信息.aspx.cs">
+      <DependentUpon>推荐信息.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\推荐信息.aspx.designer.cs">
+      <DependentUpon>推荐信息.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\最新信息.aspx.cs">
+      <DependentUpon>最新信息.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\最新信息.aspx.designer.cs">
+      <DependentUpon>最新信息.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\管理员.aspx.cs">
+      <DependentUpon>管理员.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\管理员.aspx.designer.cs">
+      <DependentUpon>管理员.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\管理员登录.aspx.cs">
+      <DependentUpon>管理员登录.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\管理员登录.aspx.designer.cs">
+      <DependentUpon>管理员登录.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\详细信息.aspx.cs">
+      <DependentUpon>详细信息.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\详细信息.aspx.designer.cs">
+      <DependentUpon>详细信息.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\顶部.aspx.cs">
+      <DependentUpon>顶部.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\顶部.aspx.designer.cs">
+      <DependentUpon>顶部.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\首页main.aspx.cs">
+      <DependentUpon>首页main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\首页main.aspx.designer.cs">
+      <DependentUpon>首页main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\首页关键字检索.aspx.cs">
+      <DependentUpon>首页关键字检索.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\首页关键字检索.aspx.designer.cs">
+      <DependentUpon>首页关键字检索.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\首页导航检索main.aspx.cs">
+      <DependentUpon>首页导航检索main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\首页导航检索main.aspx.designer.cs">
+      <DependentUpon>首页导航检索main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\iframe\首页左侧.aspx.cs">
+      <DependentUpon>首页左侧.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\iframe\首页左侧.aspx.designer.cs">
+      <DependentUpon>首页左侧.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\后台首页.aspx.cs">
+      <DependentUpon>后台首页.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\后台首页.aspx.designer.cs">
+      <DependentUpon>后台首页.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\都市供求信息网.aspx.cs">
+      <DependentUpon>都市供求信息网.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\都市供求信息网.aspx.designer.cs">
+      <DependentUpon>都市供求信息网.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="model\Cards.cs" />
+    <Compile Include="dao\Concatenate.cs" />
+    <Compile Include="dao\DBHelper.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="model\TbInfo.cs" />
+    <Compile Include="model\TBType.cs" />
+    <Compile Include="model\Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2458</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2457/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
